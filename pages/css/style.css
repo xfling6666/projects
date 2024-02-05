@@ -1,0 +1,317 @@
+/*
+    Student name: Feiling Xie ; Lanchen Zhou; Mingzi Xu
+    File name: style.css
+    Section: CST 8285 sec 312 group 9
+    date created: nov.25th
+    Descriptiom: this is the style css file for assignment02.
+*/
+
+body {
+  font-family: sans-serif;
+  margin:0;
+  padding:0;
+}
+/*side nav bar style
+*/
+
+h1{
+ padding:20px;
+ margin:0 auto;
+}
+h1 a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  }
+h1 a:hover {
+    text-decoration: none;
+    color:  #0276b9;
+    text-align: center;
+    }
+navigation{
+  margin-top:3rem;
+  background-color: #13a8ff;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #13a8ff;
+  overflow-x: hidden;
+  padding-top: 20px; 
+}
+navigation {
+  margin:0 auto;
+}  
+
+.nav a{
+    font-size: 25px;
+    margin:1rem auto;
+    padding:6px 6px 6px 35px;
+  }
+.nav a, .logout{
+    color: #ffffff;
+    display: block;
+    text-decoration :none; 
+    
+  }
+a.logout {
+    font-size: 1.25rem;
+  }
+navigation  a:hover{
+    color: #b9b9b9;
+  }
+  
+.nav .icon {
+    display: none;
+  }
+a.logout {
+  list-style: none; 
+  font-size:1rem;
+  color:white;
+  margin:0 auto;
+  position: absolute;
+  bottom: 40px;
+  top:auto;
+  margin-left:30px;
+  text-align: center;
+
+  }
+  .logout:hover {
+    color: rgb(20, 113, 190);
+  }
+/*main section
+*/
+
+#main{
+    width: 500px;
+    float: left;
+    margin: 5rem;
+    padding: 10px;
+    display: inline;  
+    margin-left: 200px;   
+  }
+
+
+.container {
+    padding: 2px 16px;
+  }
+.userInfo{
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+
+.logbutton{
+     display: flex;
+  justify-content: center;
+}
+#login {
+    background-color: #13a8ff;
+}
+#register {
+    background-color: #ff9513;
+}
+/* ineventory and all the other shared pages*/
+/*user information stuts bar to the top of the page*/
+
+/* inventory page*/
+.contentpage{
+  
+  margin-left: 200px;
+  min-height:600px;
+  margin-top:50px;
+}
+
+.content {
+  display:block;
+  margin:100px 0;
+ 
+}
+
+.inline h3{
+  margin:0;
+}
+.inline{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:10px;
+}
+
+#content  {
+  margin: 0 1rem;
+}
+.addbtn{
+  display:grid;
+  justify-content: center;
+  padding-right:5px;
+}
+.search-space{
+  margin-top:200px;
+}
+.search-space .center-title{
+  text-align: center;
+}
+/* table form */
+table.list{
+  /*table-layout: auto;*/
+  width: 100%; 
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+
+  border: 1px solid #ddd;
+} 
+.table-scroll{
+  overflow:auto;
+  height:500px;
+}
+
+table, th, td {
+ /* border: 1px solid;
+  border-color: #b9b9b9;*/
+  border-collapse: collapse;
+  width:20px;
+  padding:10px;
+  text-align: center;
+}
+.cell-center{
+  text-align: center;
+}
+tr {
+  height:80px;
+  padding:0;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.list{overflow-x:auto;}
+
+
+.small {
+  max-width:40px;
+  margin:0 auto;
+}
+/* search and account releted
+*/
+.centerpage{
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.half-screen-container{
+  /*padding-top:100px;*/
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.half-screen-container div{
+  padding-top:20px;
+}
+.half-screen-container{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.center-container.action {
+  align-content: center;
+
+}
+.form-center {
+  display:grid;
+  justify-content: center;
+  align-content: center;
+  display: table; 
+  min-width:500px;
+}
+
+.input-group.search-group{
+  padding-top:20px;
+  margin:0 auto;
+  text-align: center;
+
+}
+#operations{
+text-align: center;
+}
+div.right-group{
+  display:block;
+  padding-top:0;
+}
+.center-title{
+    margin:0 auto;;
+}
+.account-contenainer{
+  display:flex;
+  
+}
+div.center-group,dl.center-group {
+  display:flex;
+  align-items: top;
+  justify-content:space-between;
+
+}
+label.table-cell,dt.table-cell{
+  color:#0276b9;
+  height:30px;
+  display:inline-block;
+  width:200px;
+  font-weight: bold;
+}
+
+input.table-cell,dd.table-cell { 
+  display: table-cell;
+  width:100% ;
+  width:200px;
+}
+
+/* footer
+*/
+footer {
+    /*background-color:hsl(196, 83%, 35%);*/
+    margin-left:200px;
+    color: rgb(7, 111, 181);
+    text-align:center;
+    position: relative;
+    bottom: 0;
+    top:auto;
+
+    margin: 0;
+    padding:30px 200px;
+}
+/*showbook.php style
+*/
+.detailimg {
+  max-width:100px;
+  height:auto;
+}
+/*
+accout page
+*/
+.account {
+  display: flex;
+  
+  flex-direction: column;
+  width:500px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  /*.nav {
+    display: none;
+}*/
+  .contentpage {
+      margin:0 auto;  }
+      
+    .logout {
+      bottom: auto;
+      top:0;
+      right:0;
+      text-align: right;
+      }
+      footer{
+        padding:0;
+        margin:0;
+      }
+  }

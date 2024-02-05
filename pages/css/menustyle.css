@@ -1,0 +1,89 @@
+/*
+    Student name: Feiling Xie ; Lanchen Zhou; Mingzi Xu
+    File name: menustyle.css
+    Section: CST 8285 sec 312 group 9
+    date created: nov.25th
+    Descriptiom: this is the style css file for assignment02.
+*/
+
+
+@media screen and (max-width: 768px) {
+  
+  body{
+    margin:0;
+    padding:0;
+  }
+  h1 {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+  navigation {
+    overflow: hidden;
+    background-color: #13a8ff;
+    position: relative;
+    top:0;
+    height:50px;
+    display:inline;
+    margin:0;
+    width: 100%;
+    padding:0;
+  }
+      
+.nav {
+        overflow: hidden;
+        background-color: #13a8ff;
+        margin:0;
+      }
+      
+.nav a,.nav .logout {
+        margin:0;
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .nav a:hover {
+        background-color: #006aa8;
+        color: black;
+      }
+      
+      .nav a.active {
+        background-color: #004b76;
+        color:whitesmoke;
+      }
+      
+     
+      
+      
+        .nav a:not(:first-child) {display: none;}
+        .nav a.icon {
+          float: right;
+          display: block;
+        }
+      
+        .nav.responsive {position: relative;}
+        .nav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .nav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+         
+
+        a.logout {
+           
+            position: relative;
+            bottom:auto;
+            }
+   
+}
